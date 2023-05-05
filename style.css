@@ -1,0 +1,70 @@
+.navbar {
+    z-index: auto;
+}  
+:root {
+    --colorNaranja: #fd7e14
+}
+
+
+nav div .navbar-nav a {
+    color: var(--colorNaranja);
+}
+
+nav div .navbar-nav a:hover {
+    color: black;
+}
+
+nav div .navbar-nav .nav-link.active {
+    color:var(--colorNaranja);
+}
+
+/* banner */
+.banner {
+    height: 50vh;
+}
+.banner>img {
+    height:100%;
+}
+
+.banner__text--shadow {
+    filter: drop-shadow(2px 4px 6px white);
+    -webkit-filter: drop-shadow(3px 3px 3px white);
+    padding-top: 10%;
+}
+.card-group {
+    margin-top: 5%;
+}
+
+.footer--background {
+    background: #fd7e14
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+}
+
+footer a:hover {
+    color: rgb(108, 131, 162);
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+}
+
+/* Banner */
+
+.banner {
+    height: 75vh;
+}
+
+.banner>img {
+    height: 100%;
+    object-fit: cover;
+}
